@@ -86,9 +86,9 @@ class FindCrime(ServiceBase):
                 pm12to3 += 1
             elif (minutes >=901 and minutes <=1080):
                 pm3to6 += 1
-            elif (minutes >=1081and minutes <=1260):
+            elif (minutes >=1081 and minutes <=1260):
                 pm6to9 += 1
-            elif (minutes >=1261 and minutes <=1440or minutes == 0):
+            elif (minutes >=1261 and minutes <=1440 or minutes == 0):
                 pm9to12 += 1
 
         event_time_count = {"12:01am-3am": am12to3,
